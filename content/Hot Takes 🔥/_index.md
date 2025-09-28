@@ -1,6 +1,6 @@
 ---
 aliases:
-  - philsophical
+  - philosophical
 title: Hot Takes 🔥
 ---
 By reading this, you consent to reading a very opinionated guide on how to live a good life.
