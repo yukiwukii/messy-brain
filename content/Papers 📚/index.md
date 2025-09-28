@@ -1,0 +1,6 @@
+---
+aliases:
+  - academics
+---
+
+test academics
