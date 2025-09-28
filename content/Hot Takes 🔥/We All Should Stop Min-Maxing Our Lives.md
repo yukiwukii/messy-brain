@@ -1,4 +1,4 @@
-  This is a thought that has been floating in my head for quite a while, but I think we, as a society, should strive to stop min-maxing and incorporate more whimsy in our lives.
+This is a thought that has been floating in my head for quite a while, but I think we, as a society, should strive to stop min-maxing and incorporate more whimsy in our lives.
 
 Why do we need to optimize everything? Why do we need to eliminate every distractions? Why can't we just live life as it is, flaws and all?
 

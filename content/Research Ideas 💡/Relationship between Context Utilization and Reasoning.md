@@ -1,7 +1,4 @@
 #idea 
-
-[[Proposal@OFYP]]
-
 # Things To Do
 - [ ] Read through what Haeun says in the email
 
