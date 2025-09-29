@@ -10,6 +10,6 @@ Now, as you may (or may not) already know, I'm **Yuki**. This site houses my var
 
 I call myself a budding academic -- I love reading research papers! I write about a bunch of [[Papers 📚/_index|papers]] here. I am also an avid daydreamer, and can pretty [[Hot Takes 🔥/_index|philosophical]] at times (rare).
 
-I am also a strong believer of [[Agenda 📅/_index|learning]] and [[Research Ideas 💡/_index|building]] in public. Feel free to stalk me!
+I am also a strong believer of learning ([[Bucket List|courses]] / [[Papers 📚/_index|papers]]) and [[Research Ideas 💡/_index|building]] in public. Feel free to stalk me!
 
 
