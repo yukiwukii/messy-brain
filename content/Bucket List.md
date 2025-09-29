@@ -1,3 +1,7 @@
+# Courses I want to take
+[[TU ML Summary|Tsinghua University Machine Learning]]
+- Taken as a virtual exchange student.
+
 CS25: Transfomers United
 - https://web.stanford.edu/class/cs25/
 - April to June 2025
