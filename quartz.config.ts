@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "yuki-notes.pages.dev",
-    ignorePatterns: ["private", "templates", ".obsidian", "Hot Takes 🔥"],
+    ignorePatterns: ["private", "templates", ".obsidian", "Hot Takes 🔥", "Excalidraw"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
