@@ -1,6 +1,5 @@
 #idea 
 # Things To Do
-- [ ] Read through what Haeun says in the email
 
 # Thoughts
 1. How do we measure reasoning coherence?  

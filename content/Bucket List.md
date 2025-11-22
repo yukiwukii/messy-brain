@@ -47,3 +47,7 @@ NTU Mathematics for Deep Learning
 - How to Scale Your Model (https://jax-ml.github.io/scaling-book/)
 - Paper list about interpretability (https://docs.google.com/document/d/1WjvCrQhljXQh4zOblmlXFlC-wWTWfc6f9XZKGRN_6eU/edit?tab=t.0)
 - Linear algebra rehash (https://immersivemath.com/ila/index.html)
+
+# Blogs I want to write
+- [[The Hitchhiker's Guide to NSCC]]
+- 

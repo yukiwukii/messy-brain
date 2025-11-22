@@ -1,4 +1,4 @@
-The basic formula:
+‘The basic formula:
 $$
 f(\mathbf{x}) = \sum_{i=0}^dw_ix_i = \mathbf{w}^T\mathbf{x}
 $$
@@ -37,9 +37,8 @@ $$
 
 We set $\frac{\partial E}{\partial w} = 0$.
 $$
-\begin{align}
-\mathbf{X}^T\mathbf{X}\mathbf{w} &= \mathbf{X}^T\mathbf{y} \\
-\mathbf{w}^* &= (\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}^T\mathbf{y}
-\end{align}
+<span style="color:rgb(0, 32, 96)">\begin{align}<br>\mathbf{X}^T\mathbf{X}\mathbf{w} &= \mathbf{X}^T\mathbf{y} \\<br>\mathbf{w}^* &= (\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}^T\mathbf{y}<br>\end{align}</span>
 $$
-Note that the last line is only applicable if $\mathbf{X}^T\mathbf{X}$ is [[Invertible Matrices|invertible]].
+Note that <span style="color:rgb(0, 32, 96)">the last line</span> is only applicable if $\mathbf{X}^T\mathbf{X}$ is [[Invertible Matrices|invertible]].
+
+To determine the fitness of the model, we have [[R2 Goodness of Fit]].

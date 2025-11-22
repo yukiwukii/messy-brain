@@ -1,0 +1,6 @@
+Created a competition of attribution graphs using transformers.
+Trained transformers where the vast majority of the weights are zero -> model is discouraged from distributing concept representations across multiple neurons.
+- Hopefully, one neuron = one concept
+But require training from scratch, which is very expensive I suppose -> Check Appendix B.
+
+Isn't this bridge thing not the same as SAE? What is the difference? It is the same. Probably gotta look into how SAE are used, to see the difference.
