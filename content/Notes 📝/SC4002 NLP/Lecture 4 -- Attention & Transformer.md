@@ -75,6 +75,6 @@ $$
 - Each head should focus on different "feature" of the sentence
 ### Add & Norm
 - We add as a residual connection to help the gradient flows better
-	- We let $X^{(i)}=X^{(i-1)} + \text{Layer}(X^{i-1})$
+	- We let $X^{(i)}=X^{(i-1)} + \text{Layer}(X^{(i-1)})$
 - We also do layer norm to help models train faster
 	- Idea: cut down uninformative variation in hidden vector values by normalizing to unit mean and standard dev within each layer

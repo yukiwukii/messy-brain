@@ -40,7 +40,10 @@ $$
 $$
 - So our objective function is
 $$
-\mathbf{W}^* = \arg\max_{\mathbf{W}} \sum_{i=1}^N\left[ \left( \sum_{c=1}^C y_{ic}\mathbf{w}_{c}^T\mathbf{x}_{i} \right)-\log\left( \sum_{c'=1}^C\exp(\mathbf{w}_{c'}^T\mathbf{x}_{i}) \right) \right]
+\begin{align}
+\mathbf{W}^* &= \sum_{i=1}^N \sum_{c=1}^Cy_{ic}\log(\text{softmax}(\mathbf{w}_{c}^T\mathbf{x}_{i}))\\
+&= \arg\max_{\mathbf{W}} \sum_{i=1}^N\left[ \left( \sum_{c=1}^C y_{ic}\mathbf{w}_{c}^T\mathbf{x}_{i} \right)-\log\left( \sum_{c'=1}^C\exp(\mathbf{w}_{c'}^T\mathbf{x}_{i}) \right) \right]
+\end{align}
 $$
 ## Gradient Descent
 1. Batch gradient descent: uses the entire dataset. $\theta \leftarrow \theta - \eta \cdot \triangledown_{\theta} \frac{1}{N}\sum_{i=1}^NJ_{i}$

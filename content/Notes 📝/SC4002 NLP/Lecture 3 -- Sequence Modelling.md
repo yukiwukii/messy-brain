@@ -11,12 +11,12 @@ To recurrent unit,
 $$
 \begin{align}
 \mathbf{h}^{(t)} &= g(\mathbf{W}_{h}\mathbf{h}^{(t-1)} + \mathbf{W}_{e}\mathbf{e}^{(t)}) \\
-\mathbf{y}^{(t)} &= \text{softmax}(\mathbf{U}\mathbf{h}^{(t)})
+\mathbf{\hat{y}}^{(t)} &= \text{softmax}(\mathbf{U}\mathbf{h}^{(t)})
 \end{align}
 $$
 To find the loss function, we use cross-entropy, where $\mathbf{y}^{(t)}$ is a one-hot vector for the ground truth,
 $$
-J^{(t)}(\theta) = CE(\mathbf{y}^{(t)}, \hat{\mathbf{y}}^{(t)}) = -\sum_{w \in V}\mathbf{y}_{w}^{(t)} \log \mathbf{y}_{w}^{(t)}
+J^{(t)}(\theta) = CE(\mathbf{y}^{(t)}, \hat{\mathbf{y}}^{(t)}) = -\sum_{w \in V}\mathbf{y}_{w}^{(t)} \log \mathbf{\hat{y}}_{w}^{(t)}
 $$
 We average it to get the overall loss of the entire training set,
 $$
@@ -38,7 +38,7 @@ Computing the loss and gradient for the entire corpus $x^{(1)},\dots,x^{(T)}$ is
 3. Same weights applied at each step, so it is easy to plug and play
 ## LSTM
 Three gates:
-1. Forget gate: $f^{(t)} = \sigma(\mathbf{W}_{f}h^{(t-1)}+\mathbf{U}_{f}\mathbf{x}^{t} + \mathbf{b}_{f})$
+1. Forget gate: $f^{(t)} = \sigma(\mathbf{W}_{f}h^{(t-1)}+\mathbf{U}_{f}\mathbf{x}^{(t)} + \mathbf{b}_{f})$
 2. Input gate: $i^{(t)} = \sigma(\mathbf{W}_{i}\mathbf{h}^{(t-1)}+\mathbf{U}_{i}\mathbf{x}^{(t)}+\mathbf{b}_{i})$
 3. Output gate: $o^{(t)}= \sigma(\mathbf{W}_{o}\mathbf{h}^{(t-1)}+\mathbf{U}_{o}\mathbf{x}^{(t)}+\mathbf{b}_{o})$
 
