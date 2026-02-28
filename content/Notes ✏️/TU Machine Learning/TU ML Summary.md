@@ -50,3 +50,5 @@ To do this, the data must be normal. If there is no good model, then ditch it an
 ## Chapter 12: Manifold Learning
 [[Principal Component Analysis]]
 [[t-SNE]]
+
+## Chapter 19: Language Models, Transformers & GPT
