@@ -1,1 +1,0 @@
-A new idea from Alvin.
