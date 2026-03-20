@@ -1,10 +1,10 @@
 ---
+title: Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?
 authors: Yang Yue, Zhiqi Chen, Rui Lu, Andrew Zhao, Zhaokai Wang, Yang Yue, Shiji Song, Gao Huang
 year: 2025
-url: "http://arxiv.org/abs/2504.13837"
-doi: "10.48550/arXiv.2504.13837"
+url: http://arxiv.org/abs/2504.13837
+doi: 10.48550/arXiv.2504.13837
 ---
-# Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?
 #### (2025) - Yang Yue, Zhiqi Chen, Rui Lu, Andrew Zhao, Zhaokai Wang, Yang Yue, Shiji Song, Gao Huang
 
 ## Abstract

@@ -1,10 +1,10 @@
 ---
+title: Stress Testing Factual Consistency Metrics for Long-Document Summarization
 authors: Zain Muhammad Mujahid, Dustin Wright, Isabelle Augenstein
 year: 2025
-url: "http://arxiv.org/abs/2511.07689"
-doi: "10.48550/arXiv.2511.07689"
+url: http://arxiv.org/abs/2511.07689
+doi: 10.48550/arXiv.2511.07689
 ---
-# Stress Testing Factual Consistency Metrics for Long-Document Summarization
 #### (2025) - Zain Muhammad Mujahid, Dustin Wright, Isabelle Augenstein
 
 ## Abstract
