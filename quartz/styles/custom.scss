@@ -99,6 +99,56 @@ img {
   height: 2px;
 }
 
+// ── Cancelled tasks [ - ] ─────────────────────────────────────────────────────
+li.task-cancelled {
+  list-style-type: none;
+  padding-left: 0;
+  text-decoration: line-through;
+  text-decoration-color: var(--gray);
+  color: var(--gray);
+
+  & > p,
+  & > p > * {
+    color: var(--gray);
+  }
+
+  input[type="checkbox"][data-task="-"] {
+    transform: translateY(2px);
+    border: 1px solid var(--gray);
+    border-radius: 3px;
+    background-color: transparent;
+    position: relative;
+    margin-inline-end: 0.2rem;
+    margin-inline-start: -1.4rem;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+
+    // Filled background + white ✕, mirroring the done checkmark style
+    border-color: var(--gray);
+    background-color: var(--gray);
+
+    &::after {
+      content: "✕";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 13px;
+      font-weight: 950;
+      line-height: 1;
+      color: var(--light);
+    }
+  }
+}
+
+// ── Mark highlights — override hardcoded Obsidian inline colors in dark mode ──
+:root[saved-theme="dark"] mark {
+  background: linear-gradient(transparent 50%, rgba(196, 146, 42, 0.45) 50%) !important;
+  color: var(--darkgray) !important;
+}
+
 // ── Page title — tighter tracking ─────────────────────────────────────────────
 .page-title a {
   letter-spacing: -0.03em;

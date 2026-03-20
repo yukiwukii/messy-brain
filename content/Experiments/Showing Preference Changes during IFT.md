@@ -1,6 +1,6 @@
+#running
 [[STEM Presentation '16 Mar]]
 [[Meeting with Isabelle '17 Mar]]
-#running
 
 How much it <mark style="background: #FFF3A3A6;">favours</mark> the context -- not how much it uses it.
 

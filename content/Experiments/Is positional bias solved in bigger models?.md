@@ -1,5 +1,5 @@
-[[How does the training process of judge model affect their judgement?]]
 #done
+[[How does the training process of judge model affect their judgement?]]
 
 - [x] Running `big-qwen-base`. Still dealing with some multi-GPU and VLLM issues. ✅ 2026-03-05
 - [ ] Running `thinking-qwen-base`. Maybe thinking models solve positional bias?
