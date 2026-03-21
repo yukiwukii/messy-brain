@@ -3,7 +3,7 @@
 Final Comments: Experiment deprecated because I have been using zero-shot prompts, which performed terribly (presumably because base model cannot understand shit). 
 Follow up experiment: [[Showing Preference Changes during IFT]]
 
-<mark style="background: #FFF3A3A6;">I NEED TO FILTER TO ONLY `MODEL = LLAMA` !!!!!!!!!</mark>
+==I NEED TO FILTER TO ONLY `MODEL = LLAMA` !!!!!!!!!==
 - [x] Running `generate-base` to get the token log probs for the base model -> Running on runpod right now. ✅ 2026-03-04
 - [x] Checking the difference between instruct and non-instruct ✅ 2026-03-04
 - Difference between instruct and non-instruct does not really show correlation with the context characteristics.
@@ -68,7 +68,7 @@ Ugggh I think I am confusing myself here. There is a fundamental different betwe
 - If we give "refuting evidence" instead, which is aligned with parametric knowledge, we expect the answer to be "False".
 - We observe **-ve correlation** for P(False|C) and **+ve correlation** for P(True|C) in base ver. High P(False|C) should use less ACU as the answer is already correct. High P(True|C) should have high ACU, as the answer changes. This makes sense.
 
-<mark style="background: #FFF3A3A6;">I honestly don't really understand these three context characteristics. </mark>They are also not really explored in the paper...
+==I honestly don't really understand these three context characteristics.== They are also not really explored in the paper...
 
 OK so, for CounterFact, the "refuting" evidence is actually the correct answer, but before it is redefined by the the context. Meanwhile, the "supporting" evidence is a reiteration of the wrong context. 
 

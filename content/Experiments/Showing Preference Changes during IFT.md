@@ -1,8 +1,7 @@
 #running
 [[STEM Presentation '16 Mar]]
-[[Meeting with Isabelle '17 Mar]]
 
-How much it <mark style="background: #FFF3A3A6;">favours</mark> the context -- not how much it uses it.
+How much it ==favours== the context -- not how much it uses it.
 
 - [x] Need to run OLMO, 3 steps each, on the DRUID dataset. ✅ 2026-03-10
 	- This time, I just want `w_evidence` -- pre-trained, sft, dpo, rlvr
@@ -27,14 +26,13 @@ How much it <mark style="background: #FFF3A3A6;">favours</mark> the context -- n
 		- Yes, I think we need to do a run with 1B model trained on the newer Dolci dataset to see if it will become more similar to the Olmo3B model.
 		- But this does not help with the second hypothesis lmao.
 	- [x] Read papers given by Zain and Sarah. ✅ 2026-03-17
-		- <mark style="background: #FFF3A3A6;">Sarah's paper is not out yet.</mark>
+		- ==Sarah's paper is not out yet.==
 	- [-] Siddhesh mentioned something about safety, instruct, fine-tuned OLMo models? ❌ 2026-03-17
 		- Can't find what he's referring to.
 - [x] Run the difference between ACU scores (normal) too ✅ 2026-03-13
 	- Running this now.
-	- <mark style="background: #FFF3A3A6;">What does it mean that the results don't hold here...?</mark>
-	- <mark style="background: #FFF3A3A6;">Haeun said it's okay for it to be different as long as there is a meaningful correlation. What correlation can we find here?
-</mark>
+	- ==What does it mean that the results don't hold here...?==
+	- ==Haeun said it's okay for it to be different as long as there is a meaningful correlation. What correlation can we find here?==
 - [ ] Work on perplexity counting for Olmo.
 - [x] Evaluate each step of SFT ✅ 2026-03-17
 	- Measure the accuracy too. Can we stop early?
