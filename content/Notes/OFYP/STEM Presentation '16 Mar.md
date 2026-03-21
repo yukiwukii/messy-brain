@@ -1,3 +1,7 @@
+---
+created: 2026-03-14T16:34
+modified: 2026-03-16T09:12
+---
 - [x] Work on the stem presentation (need to visualize it first...) ✅ 2026-03-14
 - [x] Polish the presentation ✅ 2026-03-16
 

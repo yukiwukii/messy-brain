@@ -1,3 +1,7 @@
+---
+created: 2025-10-26T06:42
+modified: 2025-10-26T06:58
+---
 1st-order Markov Chain: The time $i$ value depends only on the $i-1$ value.
 Transition probability:
 $$

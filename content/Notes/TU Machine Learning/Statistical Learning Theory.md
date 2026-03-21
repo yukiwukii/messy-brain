@@ -1,3 +1,7 @@
+---
+created: 2025-10-16T11:14
+modified: 2025-10-16T12:24
+---
 Instead of 100% trusting in the training loss as a metric for model performance, we want to a theoretically rigorous way to ensure learning happens.
 
 Learning is defined as finding a *function* that maps inputs $x$ to outputs $y$. The function is $f(x, \alpha)$, where $\alpha$ is the model parameter.

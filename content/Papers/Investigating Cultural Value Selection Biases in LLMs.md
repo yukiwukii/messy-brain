@@ -1,3 +1,7 @@
+---
+created: 2026-03-10T11:20
+modified: 2026-03-10T11:58
+---
 General thought:
 - Interesting idea; for most part, I thought it reads quite well. The methods are interesting.
 - I will be speaking from a beginner's perspective -- so I will focusing more on what I don't understand; and therefore needs more explanation / clarity.

@@ -1,3 +1,7 @@
+---
+created: 2025-10-21T14:01
+modified: 2025-10-21T14:07
+---
 Bootstrapping method to introduce democracy in decision making.
 
 General steps:

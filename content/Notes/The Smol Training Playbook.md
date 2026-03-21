@@ -1,5 +1,7 @@
 ---
 url: https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook#introduction
+created: 2025-12-07T02:56
+modified: 2025-12-07T03:23
 ---
 ## Training Compass
 ### The Why

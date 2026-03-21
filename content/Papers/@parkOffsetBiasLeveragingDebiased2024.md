@@ -2,6 +2,8 @@
 title: "OffsetBias: Leveraging Debiased Data for Tuning Evaluators"
 authors: Junsoo Park, Seungyeon Jwa, Ren Meiying, Daeyoung Kim, Sanghyuk Choi
 year: 2024
+created: 2026-02-08T16:57
+modified: 2026-02-08T17:26
 ---
 TLDR; Created a benchmark for biases, and then dataset that can make LLM more robust against biases. The dataset is called OffsetBias. It is a collection of counter-examples to biases. It contains an instruction $I$, then two responses: good, $R_{g}$ and bad, $R_{b}$. They must be challenging, so $R_{b}$ must have better qualities than $R_{g}$.
 

@@ -1,3 +1,7 @@
+---
+created: 2025-10-15T19:24
+modified: 2025-10-16T10:25
+---
 ## For Multiclass Classification
 Decision function:
 $$

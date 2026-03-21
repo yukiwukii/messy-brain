@@ -1,3 +1,7 @@
+---
+created: 2025-11-04T09:22
+modified: 2025-11-04T09:28
+---
 Remember that Naive Bayes only work when the features are uncorrelated to each other. 
 We can use PCA to derive a new set of variables that are:
 1. Linear combinations of the original variables

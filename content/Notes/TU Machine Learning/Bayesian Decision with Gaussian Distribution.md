@@ -1,3 +1,7 @@
+---
+created: 2025-10-26T06:40
+modified: 2025-10-26T06:41
+---
 Honestly, it is a bit confusing.
 ## Case 1: Spherical Covariances + Equal Priors
 - Decision rule: Assign to the class with the **nearest mean** (Euclidean distance)

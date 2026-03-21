@@ -1,3 +1,7 @@
+---
+created: 2025-10-21T13:51
+modified: 2025-10-21T13:56
+---
 Imagine we have two continuous tuple $(x, y)$ where $x, y \in \mathbb{R}$. We have the within-leave variance $S$ of leaf $c$.
 $$
 S = \sum_{c\in \text{leaves}(T)} \sum_{i \in C} (y_{i}-m_{c})^2

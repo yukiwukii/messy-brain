@@ -2,6 +2,8 @@
 aliases:
   - building
 title: Research Ideas
+created: 2025-09-28T10:10
+modified: 2026-03-03T09:46
 ---
 This folder houses my research ideas in detail. As a newbie in research, my research taste is next-to-none, but I'd like to hone it by writing as much as I could think of.
 

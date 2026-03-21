@@ -1,3 +1,7 @@
+---
+created: 2025-10-11T06:40
+modified: 2025-10-11T06:49
+---
 Instead of finding $\boldsymbol{\alpha}^T\mathbf{y}>0$ for all samples, we find for as many samples as possible.
 
 One method to do this is by introducing an error / bias term. Basically, we change from the cost function of [[Perceptron]]

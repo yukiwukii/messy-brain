@@ -1,3 +1,7 @@
+---
+created: 2025-10-16T12:32
+modified: 2025-10-16T12:39
+---
 If we want to do feature selection, we can't just do trial and error to find the features that correspond to the lowest error --> too expensive!
 
 So, we have to determine the separability of the features. The more separable they are, the better classification work and therefore higher accuracy. Doing this requires some metrics, and there are a bunch of metrics.

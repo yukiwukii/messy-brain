@@ -1,3 +1,7 @@
+---
+created: 2025-10-09T09:16
+modified: 2025-10-15T18:12
+---
 I'm sure you know what this means conceptually, but to formalize it:
 $$
 \exists \alpha, \ \alpha^T\mathbf{y}_{i} > 0, \ i=1,\dots,N

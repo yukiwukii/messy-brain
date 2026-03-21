@@ -1,3 +1,7 @@
+---
+created: 2025-10-21T13:08
+modified: 2025-10-21T13:23
+---
 In decision trees, we can prioritize nodes with higher information gain.
 Let the total number of samples is $n$ and samples in class 1 is $n_{1}$. 
 

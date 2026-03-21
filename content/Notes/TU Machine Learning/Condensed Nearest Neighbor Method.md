@@ -1,3 +1,7 @@
+---
+created: 2025-10-11T11:02
+modified: 2025-10-11T16:19
+---
 We find a few representative samples to reduce storage.
 1. Separate $\mathcal{X}^N$ as $\mathcal{X}_{S}$ and $\mathcal{X}_{G}$.
 2. Start with only 1 sample in $\mathcal{X}_{S}$ and all others are in $\mathcal{X}_{G}$.

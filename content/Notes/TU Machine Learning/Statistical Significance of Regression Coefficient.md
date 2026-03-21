@@ -1,3 +1,7 @@
+---
+created: 2025-09-29T05:33
+modified: 2025-09-29T05:37
+---
 Consider the linear regression equation:
 $$
 y_i = w_0 + \mathbf{w}^T\mathbf{x}_i + \epsilon_i = w_0 + \sum_{j=1}^d

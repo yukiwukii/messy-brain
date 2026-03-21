@@ -2,6 +2,8 @@
 title: Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge
 authors: Jiayi Ye, Yanbo Wang, Yue Huang, Dongping Chen, Qihui Zhang, Nuno Moniz, Tian Gao, Werner Geyer, Chao Huang, Pin-Yu Chen, Nitesh V. Chawla, Xiangliang Zhang
 year: 2024
+created: 2026-01-28T10:56
+modified: 2026-02-06T10:10
 ---
 Mostly about bias in LLM judges. Introduced a novel framework to measure biases in LLM judges, called CALM. It tests:
 1. Correctness of scientific reasoning

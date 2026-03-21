@@ -1,3 +1,7 @@
+---
+created: 2025-10-15T18:02
+modified: 2025-10-15T19:18
+---
 This is mainly about how we deal with nonlinear classification.
 
 The idea is that we want to do a non-linear transformation $\mathbf{z} = \phi(\mathbf{x})$ such that the nonlinear input space becomes a linearly separable feature space.

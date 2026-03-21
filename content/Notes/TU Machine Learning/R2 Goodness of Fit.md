@@ -1,3 +1,7 @@
+---
+created: 2025-09-29T05:26
+modified: 2025-09-29T05:33
+---
 Also called the coefficient of determination.
 $$
 R^2 = 1 - \frac{\sum_{i=1}^N(y_i -\hat{y}_i)^2}{\sum_{i=1}^N(y_i -\bar{y})^2}

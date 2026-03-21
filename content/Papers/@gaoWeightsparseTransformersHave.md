@@ -1,7 +1,9 @@
 ---
 title: Weight-sparse transformers have interpretable circuits
 authors: Leo Gao, Achyuta Rajaram, Jacob Coxon, Soham V Govande, Bowen Baker, Dan Mossing
-year: 
+year:
+created: 2025-11-22T12:33
+modified: 2025-11-22T12:34
 ---
 - Created a competition of attribution graphs using transformers.
 - Trained transformers where the vast majority of the weights are zero -> model is discouraged from distributing concept representations across multiple neurons.

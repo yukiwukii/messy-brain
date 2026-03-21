@@ -1,3 +1,7 @@
+---
+created: 2025-10-11T08:32
+modified: 2025-10-11T08:38
+---
 ## Mikovski Metric
 $$
 \delta(\mathbf{x}_{k},\mathbf{x}_{l}) = \left[ \sum_{i=1}^d |x_{ki}-k_{li}|^s \right]^{1/s}

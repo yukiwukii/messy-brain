@@ -2,6 +2,8 @@
 title: "Context-Parametric Inversion: Why Instruction Finetuning Can Worsen Context Reliance"
 authors: Sachin Goyal, Christina Baek, J. Zico Kolter, Aditi Raghunathan
 year: 2025
+created: 2026-03-05T14:31
+modified: 2026-03-06T08:52
 ---
 TLDR; work on knowledge conflicts. during instruction fine-tuning (IFT), model follows parametric knowldedge more than contextual knowledge.
 

@@ -1,3 +1,7 @@
+---
+created: 2025-11-22T04:35
+modified: 2025-11-22T05:48
+---
 Problem with word dictionary (like in Word2Vec)
 1. Can't deal with unknown words -> UNK. Solution: BPE
 2. Identical words have the same vector representation. Solution: BERT

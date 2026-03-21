@@ -1,3 +1,7 @@
+---
+created: 2025-07-31T07:36
+modified: 2025-12-13T03:16
+---
 # Creativity
 1. [[Impacts of Hallucination-Reduction Methods on LLM Creativity]]
 

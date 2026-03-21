@@ -1,3 +1,7 @@
+---
+created: 2025-07-31T08:02
+modified: 2026-03-03T09:12
+---
 Things that we need to settle:
 1. What is the smallest model that exhibit subliminal learning? Should try and replicate in GPT2-small.
 2. Then, how can we probe this model? 

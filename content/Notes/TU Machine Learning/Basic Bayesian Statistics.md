@@ -1,3 +1,7 @@
+---
+created: 2025-10-26T05:33
+modified: 2025-10-26T06:33
+---
 ### Prior Probability
 Basically a probability of seeing an outcome -> normal probability.
 - $\text{Error} = \min\{P(\omega_{1}), P(\omega_{2})\}$

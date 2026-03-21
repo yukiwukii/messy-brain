@@ -1,3 +1,7 @@
+---
+created: 2026-03-20T23:30
+modified: 2026-03-20T23:32
+---
 Leetcode problem 57.
 
 Sometimes, it is probably easier to think in terms of progression rather than cases.

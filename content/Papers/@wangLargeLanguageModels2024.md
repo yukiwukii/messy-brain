@@ -2,6 +2,8 @@
 title: Large Language Models are not Fair Evaluators
 authors: Peiyi Wang, Lei Li, Liang Chen, Zefan Cai, Dawei Zhu, Binghuai Lin, Yunbo Cao, Lingpeng Kong, Qi Liu, Tianyu Liu, Zhifang Sui
 year: 2024
+created: 2026-02-08T17:27
+modified: 2026-02-08T17:43
 ---
 TLDR; a paper focused on position bias -- where the judge favor the first option. Then it talks about some mitigation strategies.
 

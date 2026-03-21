@@ -2,6 +2,8 @@
 title: "Seeking Neural Nuggets: Knowledge Transfer in Large Language Models from a Parametric Perspective"
 authors: Ming Zhong, Chenxin An, Weizhu Chen, Jiawei Han, Pengcheng He
 year: 2024
+created: 2026-03-05T12:27
+modified: 2026-03-05T14:32
 ---
 TLDR; Knowledge transfer. From a larger model to a smaller model. Uses LoRA and all. Without any teacher's participation.
 

@@ -1,3 +1,7 @@
+---
+created: 2025-10-12T17:50
+modified: 2025-10-12T18:03
+---
 # Backpropagation Derivation for 3-Layer MLP
 ReLU Hidden Layer + Softmax Output + Cross-Entropy Loss
 # Network Architecture

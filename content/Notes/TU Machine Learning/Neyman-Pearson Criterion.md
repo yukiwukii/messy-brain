@@ -1,3 +1,7 @@
+---
+created: 2025-10-26T08:04
+modified: 2025-10-29T04:09
+---
 I want to minimize the error of one class, but keep the error of the other class fixed.
 $$
 \min P_{1}(e), \quad \text{s.t.} P_{2}(e) = \epsilon

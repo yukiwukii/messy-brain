@@ -1,3 +1,7 @@
+---
+created: 2025-11-19T00:25
+modified: 2025-11-19T01:35
+---
 ## Lab 1
 - Applications, kernel and hardware simulator in NachOS = one UNIX process
 - Three important sections: NachOS kernel -> Machine (simulates all hardware) -> User application 

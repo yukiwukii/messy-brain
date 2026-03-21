@@ -1,3 +1,7 @@
+---
+created: 2025-10-11T06:49
+modified: 2025-10-11T07:01
+---
 Also called the Windrow-Hoff algorithm, it is as follows:
 1. Normalize the augmented feature vectors $\mathbf{z}_{j}$ of all the training samples (refer to [[Normalized Augmented Feature Vector]]):
 	$$

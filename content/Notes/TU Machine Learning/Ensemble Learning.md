@@ -1,3 +1,7 @@
+---
+created: 2025-10-21T14:10
+modified: 2025-10-26T05:19
+---
 Building a very good classifier is hard, but building a weak one is easy (just need to be slightly better than pure chance). So, can we combine several weak classifiers to build a better one?
 
 We can perhaps, take the weighted average, and then do activation function?

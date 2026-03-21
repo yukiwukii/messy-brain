@@ -2,6 +2,8 @@
 title: Controllable Context Sensitivity and the Knob Behind It
 authors: Julian Minder, Kevin Du, Niklas Stoehr, Giovanni Monea, Chris Wendler, Robert West, Ryan Cotterell
 year: 2024
+created: 2025-12-13T03:18
+modified: 2025-12-13T04:04
 ---
 For a model to succeed in the context task, it must execute these steps:
 1. Extract the answer from model's prior knowledge

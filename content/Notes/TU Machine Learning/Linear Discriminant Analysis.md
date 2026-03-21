@@ -1,3 +1,7 @@
+---
+created: 2025-10-09T05:19
+modified: 2025-10-11T07:48
+---
 This is for classification tasks. We want to know how to best separate features.
 
 Let's say we have two features.

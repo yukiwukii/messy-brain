@@ -1,3 +1,7 @@
+---
+created: 2025-10-10T04:22
+modified: 2025-10-11T06:37
+---
 From [[Normalized Augmented Feature Vector]], we get the value $\boldsymbol{\alpha}^T\mathbf{y}_{i}'$ that we want to maximize. Since cost functions are usually things you wanna minimize, we get
 $$
 J_{P}(\boldsymbol{\alpha}) = \sum_{\mathbf{y}_{j}\in\mathcal{Y}^k}(-\boldsymbol{\alpha}^T\mathbf{y}_{j})

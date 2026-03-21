@@ -1,3 +1,7 @@
+---
+created: 2026-03-20T19:28
+modified: 2026-03-21T10:48
+---
 #DP
 To find the contiguous subarray with the largest sum. Actually quite simple.
 
@@ -12,4 +16,3 @@ def kadane(nums):
 		if curr < 0: return 0
 	return mx
 ```
-

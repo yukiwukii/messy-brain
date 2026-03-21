@@ -1,3 +1,7 @@
+---
+created: 2025-10-14T16:14
+modified: 2025-10-15T18:37
+---
  At the saddle point, the following equalities hold:
 ## Primal feasibility
 Inside the room.

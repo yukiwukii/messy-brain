@@ -1,3 +1,7 @@
+---
+created: 2025-10-15T18:54
+modified: 2025-10-15T19:12
+---
 If $K(u, v)$ is a continuous, symmetric function (which means $K(u,v) = K(v,u)$) and positive semidefinite, then there exist a mapping $\Phi(x)$ such that:
 $$
 K(u, v) = \langle\Phi(u), \Phi(v)\rangle

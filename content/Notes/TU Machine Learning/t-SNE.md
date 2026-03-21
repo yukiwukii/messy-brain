@@ -1,3 +1,7 @@
+---
+created: 2025-11-04T10:24
+modified: 2025-11-04T10:33
+---
 This is developed since PCA cannot handle non-linear data.
 The logic is that we want to create probability of the high-dimensional data, and then find the most similar probability for the low-dimensional data.
 

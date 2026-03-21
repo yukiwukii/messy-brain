@@ -1,3 +1,7 @@
+---
+created: 2025-10-16T12:59
+modified: 2025-10-16T13:04
+---
 Intutively, we want to transform the samples into a different coordinate system where the new axes are uncorrelated, and most of the information is concentrated in just a few axes.
 
 Let's say you have a random vector $x \in \mathbb{R}^D$. The covariance matrix of the data is:

@@ -1,3 +1,7 @@
+---
+created: 2025-10-15T19:17
+modified: 2025-10-15T19:17
+---
 1. Inner products, $K(\mathbf{x}, \mathbf{x}_{i}) = (\mathbf{x} \cdot \mathbf{x}_{i})$
 2. Polynomials, $K(\mathbf{x}, \mathbf{x}_{i}) = [(\mathbf{x}\cdot \mathbf{x}_{i}) + 1]^q$
 3. Radial basis function

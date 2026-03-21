@@ -1,3 +1,7 @@
+---
+created: 2025-10-16T12:48
+modified: 2025-10-21T12:53
+---
 [[Fisher Criterion]] is basically projecting into a 1D line for separability. The solution is 
 $$
 \mathbf{w}^* = S_{w}^{-1}(\mathbf{m}_{1}-\mathbf{m}_{2})

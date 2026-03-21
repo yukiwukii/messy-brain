@@ -1,3 +1,7 @@
+---
+created: 2025-09-28T17:10
+modified: 2025-10-12T16:34
+---
 ‘The basic formula:
 $$
 f(\mathbf{x}) = \sum_{i=0}^dw_ix_i = \mathbf{w}^T\mathbf{x}

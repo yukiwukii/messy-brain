@@ -1,3 +1,7 @@
+---
+created: 2025-11-04T03:08
+modified: 2025-11-04T03:16
+---
 ## Setting of the problem
 1. Samples $\mathcal{X}_{i} = 1, \dots, c$ are i.i.d from the density $p(x|\omega_{i})$
 2. $p(\mathbf{x}|\omega_{i})$ is of the form $p(\mathbf{x}|\boldsymbol{\theta}_{i})$, in which the parameters $\boldsymbol{\theta}_{i}$ are unknown, deterministic vectors.

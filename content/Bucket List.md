@@ -1,3 +1,7 @@
+---
+created: 2025-09-12T10:08
+modified: 2026-03-02T12:43
+---
 # Courses I want to take
 [[TU ML Summary|Tsinghua University Machine Learning]]
 - Taken as a virtual exchange student.

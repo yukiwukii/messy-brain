@@ -1,3 +1,7 @@
+---
+created: 2025-11-04T03:16
+modified: 2025-11-04T03:54
+---
 ## Setting
 1. Samples $\mathcal{X}_{i} = 1,\dots,c$ are i.i.d from density $p(\mathbf{x}|\omega_{i})$
 2. $p(\mathbf{x}|\omega_{i})$ is of the form $p(\mathbf{x}|\boldsymbol{\theta}_{i})$ where $\boldsymbol{\theta}_{i}$ are random vectors with prior density of $p(\boldsymbol{\theta}_{i})$

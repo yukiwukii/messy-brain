@@ -1,3 +1,7 @@
+---
+created: 2025-10-11T11:17
+modified: 2025-10-11T17:01
+---
 The main breakthrough here, compared to previous methods is the addition of activation function.
 
 In here, the activation function is the sigmoid function:

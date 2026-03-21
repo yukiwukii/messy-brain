@@ -1,3 +1,7 @@
+---
+created: 2025-10-26T06:59
+modified: 2025-10-26T07:44
+---
 Remember that for classification, we want to find:
 $$
 P(\omega_{i}|\mathbf{x}) = \frac{P(\mathbf{x}|\omega_{i})P(\omega_{i})}{P(\mathbf{x})}

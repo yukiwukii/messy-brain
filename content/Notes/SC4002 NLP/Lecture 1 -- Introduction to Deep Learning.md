@@ -1,3 +1,7 @@
+---
+created: 2025-11-20T13:31
+modified: 2025-11-23T16:34
+---
 ## Linear Regression
 Crucial components:
 - Input vector: $x = [x_{1}, x_{2},\dots,x_{n}]$

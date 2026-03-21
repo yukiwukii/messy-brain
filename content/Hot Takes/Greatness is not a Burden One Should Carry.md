@@ -1,3 +1,7 @@
+---
+created: 2026-03-06T11:05
+modified: 2026-03-06T11:21
+---
 Many people around me dream to be someone *great* one day. A great reseracher, a great teacher, a great engineer, the list goes on and on. I'd like to argue that being *great* is a particularly bad goal to have. 
 
 For starters, I don't believe in optimizing anything in life; that includes the idea of optimizing for greatness. In addition to that, in here, I want to write about why even the *desire* to be great is a bad idea to begin with. 

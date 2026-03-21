@@ -1,3 +1,7 @@
+---
+created: 2025-09-29T05:20
+modified: 2025-09-29T05:25
+---
 ## 1. What is an invertible matrix?
 
 A square matrix $A \in \mathbb{R}^{n \times n}$ is **invertible** (also called _non-singular_) if there exists another matrix $A^{-1}$ such that:

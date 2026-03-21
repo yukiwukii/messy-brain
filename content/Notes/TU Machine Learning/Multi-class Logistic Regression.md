@@ -1,3 +1,7 @@
+---
+created: 2025-10-11T07:49
+modified: 2025-10-11T07:53
+---
 Instead of normal [[Logistic Regression]] which is binary, we want to classify it to multiple classes.
 
 Binary classification:

@@ -1,3 +1,7 @@
+---
+created: 2025-10-14T14:54
+modified: 2025-10-14T16:47
+---
 In [[Perceptron]], we learn that there might be multiple solutions. To decide which one is best, we have the optimal hyperplane.
 
 For sample set $(x_{1}, y_{1}), \dots, (x_{l},y_{l}), \quad x\in\mathbb{R}^d, \quad y \in \{+1, -1\}$, that can be separated by a hyperplane $(\mathbf{w}\cdot \mathbf{x})+ b = 0$, the optimal hyperplane is the function $f(\mathbf{x}) = \text{sgn}((\mathbf{w}\cdot \mathbf{x}) + b)$ with maximal margin between the samples of the two classes (basically most distance between the two classes), that separate the two classes without error.

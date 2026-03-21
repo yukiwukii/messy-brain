@@ -1,3 +1,7 @@
+---
+created: 2025-10-09T06:22
+modified: 2025-10-11T06:40
+---
 Classification is similar to linear regression, insofar we are making a line in a high dimensional space. But instead of using this line to predict, we are using this line to segregate different classes.
 
 The classification equation is

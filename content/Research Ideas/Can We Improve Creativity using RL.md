@@ -1,3 +1,7 @@
+---
+created: 2026-03-08T11:22
+modified: 2026-03-15T19:47
+---
 i.e. fucking around and finding out; RL version.
 [[Run RL Training]]
 ## Idea

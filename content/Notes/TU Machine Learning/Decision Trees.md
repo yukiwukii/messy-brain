@@ -1,3 +1,7 @@
+---
+created: 2025-10-21T12:55
+modified: 2025-10-21T14:01
+---
 In trees, we have to decide which feature to split first?
 
 An idea is to use [[Shannon Entropy]].

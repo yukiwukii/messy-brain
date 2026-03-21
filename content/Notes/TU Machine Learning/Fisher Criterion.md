@@ -1,3 +1,7 @@
+---
+created: 2025-10-09T05:59
+modified: 2025-10-11T07:48
+---
 Following [[Linear Discriminant Analysis|LDA]], we can then formalize Fisher's Criterion for best separation
 $$
 \max_{\mathbf{w}}J_{F}(\mathbf{w})= \frac{(\tilde{m}_{1}-\tilde{m}_{2})^2}{\tilde{S}_{1}+\tilde{S}_{2}} 

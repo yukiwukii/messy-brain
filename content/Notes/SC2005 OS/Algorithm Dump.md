@@ -1,3 +1,7 @@
+---
+created: 2025-11-18T09:47
+modified: 2025-11-18T15:08
+---
 ## CPU Scheduling
 - Three types of measurement: turnaround time, waiting time, and response time.
 1. FCFS --> convoy effect

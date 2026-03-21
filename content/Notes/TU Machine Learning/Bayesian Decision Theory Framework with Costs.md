@@ -1,3 +1,7 @@
+---
+created: 2025-10-26T07:44
+modified: 2025-10-26T08:00
+---
 The setup is as follow:
 1. Random feature vectors $\mathbf{x}$.
 2. State space $\Omega = \{\omega_{1},\omega_{2}, \dots, \omega_{c}\}$, $c$ possible classes.

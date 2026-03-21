@@ -1,3 +1,7 @@
+---
+created: 2025-10-11T07:08
+modified: 2025-10-11T07:48
+---
 The model is
 $$
 h(\mathbf{x})= \theta(\mathbf{w}^T\mathbf{x})

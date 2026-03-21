@@ -1,3 +1,7 @@
+---
+created: 2025-10-11T08:43
+modified: 2025-10-11T11:11
+---
 A generalization of [[Nearest-Neighbor Method]].
 
 We have the same setup. Let's say we have a sample set $S_{N} = \begin{Bmatrix}(x_{1},\theta_{1}, \dots,(x_{N},\theta_{N})\end{Bmatrix}$ and $x_{i}$ is the sample while $\theta_{i} = \begin{Bmatrix}1,2,\dots,c\end{Bmatrix}$.

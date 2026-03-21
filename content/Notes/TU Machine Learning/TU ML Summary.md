@@ -1,3 +1,7 @@
+---
+created: 2025-09-28T14:18
+modified: 2025-12-03T10:20
+---
 Chapter 1 is the introduction to the course.
 Will do Chapter 2 at the end of the course.
 

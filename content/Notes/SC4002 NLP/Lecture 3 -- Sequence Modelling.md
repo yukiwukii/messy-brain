@@ -1,3 +1,7 @@
+---
+created: 2025-11-22T01:18
+modified: 2025-11-23T17:04
+---
 ## RNN
 ### Training an RNN
 From feedforward,

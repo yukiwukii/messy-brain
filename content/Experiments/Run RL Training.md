@@ -1,3 +1,7 @@
+---
+created: 2026-03-08T11:26
+modified: 2026-03-15T22:19
+---
 #running 
 
 - [x] Need to figure out the OOM issues. ✅ 2026-03-09

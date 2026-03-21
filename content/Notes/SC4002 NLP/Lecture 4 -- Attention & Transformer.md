@@ -1,3 +1,7 @@
+---
+created: 2025-11-22T03:27
+modified: 2025-11-23T16:53
+---
 - In RNNs, we have a bottleneck in the encoder. 
 - This is because the decoder never sees the input text, but only the final vector
 - This many-to-one compression results in many lost information

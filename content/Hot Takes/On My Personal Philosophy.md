@@ -1,3 +1,7 @@
+---
+created: 2026-03-03T14:46
+modified: 2026-03-03T17:14
+---
 I am spending the first half of 2026 far away from home. Specifically, I am in the magical city of Copenhagen, Denmark. When I say magical, I mean it in a literal sense -- in less than 2 months, living here has helped me discover myself.
 
 When I was in Singapore last year, I had this conversation with a friend. I told him that I actually don't want to have a lavish life. I find a minimalist and simple life very attractive. Yet, I am in tech, where the *grindset* is everything. People compete with each other for a quant internship to earn $10,000 SGD per month. Others juggle normal coursework with a part-time internship. Everyone is doing something, all the time. And I, as an anxiety-laden, ADHD-suffering, FOMO-driven perfectionist, felt the need to 'keep up' with the rest of the population. So I participated in the Singaporean rat-race. At the expense of my mental health, and despite it being diametrically opposed to my future goals.

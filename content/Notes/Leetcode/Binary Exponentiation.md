@@ -1,3 +1,7 @@
+---
+created: 2026-03-20T18:39
+modified: 2026-03-20T20:05
+---
 This is how we do super fast exponents, i.e. powers.
 
 Let's say that we want to calculate $x^n$. Binary exponentiation will divide $n$ by 2 recursively. For example,

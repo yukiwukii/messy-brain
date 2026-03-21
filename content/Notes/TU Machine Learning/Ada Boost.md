@@ -1,3 +1,7 @@
+---
+created: 2025-10-21T14:18
+modified: 2025-10-21T14:55
+---
 The main idea is to create many weak classifiers and then do voting. 
 
 The simple idea is this:

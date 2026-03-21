@@ -1,3 +1,7 @@
+---
+created: 2025-10-11T10:11
+modified: 2025-10-11T10:57
+---
 Reducing calculations by preparation beforehand. 
 
 How it works:

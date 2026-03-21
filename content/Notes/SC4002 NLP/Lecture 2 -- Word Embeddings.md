@@ -1,3 +1,7 @@
+---
+created: 2025-11-22T00:12
+modified: 2025-11-22T01:17
+---
 ## History
 - We had WordNet, which contains synonym sets and hypernyms ("is a" relationship)
 	- Problem: Missing nuance, missing new meaning of words, impossible to keep up-to-date, subjective

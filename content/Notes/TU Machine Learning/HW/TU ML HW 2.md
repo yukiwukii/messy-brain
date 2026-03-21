@@ -1,3 +1,7 @@
+---
+created: 2025-10-12T16:34
+modified: 2025-10-12T17:37
+---
 # Problem 1: Derivation of Fisher Linear Discriminant
 
 ## Problem Setup

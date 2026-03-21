@@ -2,6 +2,8 @@
 title: Large Language Models are Inconsistent and Biased Evaluators
 authors: Rickard Stureborg, Dimitris Alikaniotis, Yoshi Suhara
 year: 2024
+created: 2026-02-09T12:59
+modified: 2026-02-09T14:37
 ---
 TLDR; Familiarity bias. Average perplexity decreases as score increases. Round number bias -- assigning some scores more frequently than others. Anchoring effects -- multiple labels are predicted in one output.
 

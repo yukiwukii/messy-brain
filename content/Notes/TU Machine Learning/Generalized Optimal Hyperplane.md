@@ -1,3 +1,7 @@
+---
+created: 2025-10-14T16:48
+modified: 2025-10-14T17:06
+---
 Following [[Optimal Hyperplane]], we have generalized optimal hyperplane that deals with non-separable cases.
 
 Actually, we just need to add a slack / error variable $\xi_{i}\geq 0$ to relax the constraint:

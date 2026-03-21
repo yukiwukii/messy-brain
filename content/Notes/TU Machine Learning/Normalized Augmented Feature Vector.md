@@ -1,3 +1,7 @@
+---
+created: 2025-10-09T09:00
+modified: 2025-10-10T04:18
+---
 Used in [[Classification]], where we want to separate different classes.
 
 Remember that the linear discriminant function is
