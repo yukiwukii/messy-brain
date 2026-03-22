@@ -73,15 +73,21 @@ const pageTitles = [
   "˚₊‧꒰ა ♡ ໒꒱‧₊˚",
 ]
 
-function randomizePageTitle() {
+const SESSION_KEY = "page-title-kaomoji"
+
+function setPageTitle() {
   const el = document.querySelector(".page-title a")
-  if (el) {
-    el.textContent = pageTitles[Math.floor(Math.random() * pageTitles.length)]
+  if (!el) return
+  let kaomoji = sessionStorage.getItem(SESSION_KEY)
+  if (!kaomoji) {
+    kaomoji = pageTitles[Math.floor(Math.random() * pageTitles.length)]
+    sessionStorage.setItem(SESSION_KEY, kaomoji)
   }
+  el.textContent = kaomoji
 }
 
-randomizePageTitle()
-document.addEventListener("nav", randomizePageTitle)
+setPageTitle()
+document.addEventListener("nav", setPageTitle)
 `
 
 export default (() => PageTitle) satisfies QuartzComponentConstructor

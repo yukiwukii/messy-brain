@@ -2,12 +2,13 @@
 @use "sass:color";
 
 .callout {
-  border: 1px solid var(--border);
-  background-color: var(--bg);
+  border: 4px double var(--border);
+  background-color: transparent;
   border-radius: 5px;
-  padding: 0 1rem;
-  overflow-y: hidden;
+  padding: 0 1rem 1rem;
+  overflow: visible;
   box-sizing: border-box;
+  margin-top: 2rem;
 
   & > .callout-content {
     display: grid;
@@ -15,7 +16,7 @@
     overflow: hidden;
 
     & > :first-child {
-      margin-top: 0;
+      margin-top: 0.75rem;
     }
   }
 
@@ -33,6 +34,13 @@
   --callout-icon-example: url('data:image/svg+xml; utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg> ');
   --callout-icon-quote: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg>');
   --callout-icon-fold: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"%3E%3Cpolyline points="6 9 12 15 18 9"%3E%3C/polyline%3E%3C/svg%3E');
+
+  // ── Custom callout icons ─────────────────────────────────────────────────────
+  --callout-icon-theorem: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1"></path><path d="M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1"></path></svg>');
+  --callout-icon-definition: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>');
+  --callout-icon-insight: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path><path d="M9 18h6"></path><path d="M10 22h4"></path></svg>');
+  --callout-icon-result: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>');
+  --callout-icon-hypothesis: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2"></path><path d="M8.5 2h7"></path><path d="M7 16h10"></path></svg>');
 
   &[data-callout] {
     --color: #448aff;
@@ -118,7 +126,53 @@
     --callout-icon: var(--callout-icon-quote);
   }
 
+  // ── Custom callout types ─────────────────────────────────────────────────────
+  &[data-callout="theorem"],
+  &[data-callout="lemma"],
+  &[data-callout="corollary"],
+  &[data-callout="proposition"] {
+    --color: #5c6bc0;
+    --border: #5c6bc044;
+    --bg: #5c6bc010;
+    --callout-icon: var(--callout-icon-theorem);
+  }
+
+  &[data-callout="definition"] {
+    --color: #00838f;
+    --border: #00838f44;
+    --bg: #00838f10;
+    --callout-icon: var(--callout-icon-definition);
+  }
+
+  &[data-callout="insight"],
+  &[data-callout="takeaway"],
+  &[data-callout="key"] {
+    --color: #ca8a04;
+    --border: #ca8a0444;
+    --bg: #ca8a0410;
+    --callout-icon: var(--callout-icon-insight);
+  }
+
+  &[data-callout="result"],
+  &[data-callout="finding"] {
+    --color: #059669;
+    --border: #05966944;
+    --bg: #05966910;
+    --callout-icon: var(--callout-icon-result);
+  }
+
+  &[data-callout="hypothesis"],
+  &[data-callout="conjecture"] {
+    --color: #c026d3;
+    --border: #c026d344;
+    --bg: #c026d310;
+    --callout-icon: var(--callout-icon-hypothesis);
+  }
+
   &.is-collapsed {
+    padding-bottom: 0;
+    overflow: hidden;
+
     & > .callout-title > .fold-callout-icon {
       transform: rotateZ(-90deg);
     }
@@ -136,10 +190,17 @@
 
 .callout-title {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 5px;
-  padding: 1rem 0;
+  width: fit-content;
+  padding: 0.2rem 0.5rem;
+  margin-top: -1.1rem;
+  margin-left: 0.75rem;
   color: var(--color);
+  background-color: var(--light);
+  font-variant: all-small-caps;
+  letter-spacing: 0.05em;
+  border-radius: 3px;
 
   --icon-size: 18px;
 

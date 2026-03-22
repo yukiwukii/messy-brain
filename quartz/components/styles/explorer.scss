@@ -124,7 +124,7 @@ button.desktop-explorer {
       color: var(--dark);
       opacity: 0.75;
       pointer-events: all;
-      font-size: 0.85rem;
+      font-size: 0.9rem;
       display: block;
       white-space: nowrap;
       overflow: hidden;
@@ -188,7 +188,7 @@ button.desktop-explorer {
     font-family: var(--headerFont);
 
     & span {
-      font-size: 0.95rem;
+      font-size: 1rem;
       display: inline-block;
       color: var(--secondary);
       font-weight: $semiBoldWeight;
