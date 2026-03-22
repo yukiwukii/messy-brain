@@ -13,7 +13,7 @@ const NotFound: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
     ░░   you fell off the map.   ░░
     ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
-        /\_/\
+        /\\_/\\
        ( ŏ﹏ŏ )  < this page doesn't exist
        =( Y )=
         )   (
