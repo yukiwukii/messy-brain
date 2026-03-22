@@ -7,18 +7,21 @@ const NotFound: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
 
   return (
     <article class="popover-hint">
+      <h1 class="not-found-title">404 — Page Not Found</h1>
       <pre class="not-found-ascii">{`
     ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
     ░░   you fell off the map.   ░░
     ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
-        ∧＿∧
-       （；ŏ＿ŏ）   < this page
-       ／|    |＼       doesn't exist
-      (  |    |  )
-         ＼＿／
+     ∧,,∧  ／|    ∧＿∧  ／
+    (ﾟДﾟ；)＜  |   (╥﹏╥)＜  help
+    ／|   |＼  |   ／|   |＼
+  _( |   | )_|  （  |   |  ）
+      ＼＿／        ＼＿／
 
-      4  0  4  not found
+  (ノಠ益ಠ)ノ彡┻━┻    ┬─┬ノ(º _ ºノ)
+
+    ˙◠˙  ← this page doesn't exist
     `}</pre>
       <a href={baseDir}>{i18n(cfg.locale).pages.error.home}</a>
     </article>
@@ -26,6 +29,11 @@ const NotFound: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
 }
 
 NotFound.css = `
+.not-found-title {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
 .not-found-ascii {
   font-family: var(--codeFont);
   font-size: 0.85rem;
@@ -34,7 +42,7 @@ NotFound.css = `
   background: none;
   border: none;
   padding: 0;
-  margin: 2rem 0;
+  margin: 1rem 0 2rem 0;
   white-space: pre;
 }
 `
