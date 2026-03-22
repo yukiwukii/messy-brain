@@ -1,13 +1,12 @@
 ---
 created: 2026-03-21T14:15
-modified: 2026-03-22T17:52
+modified: 2026-03-22T17:55
 ---
 ## Matrix Multiplications
 I use einsum.
 ```python
 A = np.array([[1, 2], [3, 4]])
 B = np.array([[5, 6], [7, 8]])
-
 C = np.einsum('ij, jk -> ik', A, B)
 ```
 
