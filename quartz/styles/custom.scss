@@ -143,6 +143,11 @@ li.task-cancelled {
   }
 }
 
+// ── Excalidraw PNGs — invert in dark mode so strokes stay visible ─────────────
+:root[saved-theme="dark"] img[src$=".excalidraw.png"] {
+  filter: invert(1) hue-rotate(180deg);
+}
+
 // ── Mark highlights — override hardcoded Obsidian inline colors in dark mode ──
 :root[saved-theme="dark"] mark {
   background: linear-gradient(transparent 50%, rgba(196, 146, 42, 0.45) 50%) !important;

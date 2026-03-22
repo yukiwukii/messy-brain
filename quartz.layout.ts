@@ -37,7 +37,9 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      filterFn: (node) => node.slugSegment !== "Files",
+    }),
   ],
   right: [
     Component.Graph(),
@@ -61,7 +63,9 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      filterFn: (node) => node.slugSegment !== "Files",
+    }),
   ],
   right: [],
 }

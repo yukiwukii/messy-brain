@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "yuki-notes.pages.dev",
-    ignorePatterns: ["Private", "Templates", ".obsidian", "Hot Takes", "Agenda", "Files"],
+    ignorePatterns: ["Private", "Templates", ".obsidian", "Hot Takes", "Agenda"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
@@ -66,6 +66,7 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
+      Plugin.Excalidraw(),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents({ maxDepth: 4 }),
