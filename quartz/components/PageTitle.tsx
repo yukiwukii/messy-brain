@@ -73,17 +73,11 @@ const pageTitles = [
   "˚₊‧꒰ა ♡ ໒꒱‧₊˚",
 ]
 
-const SESSION_KEY = "page-title-kaomoji"
+let kaomoji = pageTitles[Math.floor(Math.random() * pageTitles.length)]
 
 function setPageTitle() {
   const el = document.querySelector(".page-title a")
-  if (!el) return
-  let kaomoji = sessionStorage.getItem(SESSION_KEY)
-  if (!kaomoji) {
-    kaomoji = pageTitles[Math.floor(Math.random() * pageTitles.length)]
-    sessionStorage.setItem(SESSION_KEY, kaomoji)
-  }
-  el.textContent = kaomoji
+  if (el) el.textContent = kaomoji
 }
 
 setPageTitle()
