@@ -243,13 +243,7 @@ li.task-cancelled {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .center {
-    overflow-x: hidden;
-  }
-
   article {
-    overflow-wrap: anywhere;
-
     img {
       max-width: 100%;
       height: auto;
