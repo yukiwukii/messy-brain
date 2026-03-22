@@ -257,6 +257,36 @@ async function setupExplorer(currentSlug: FullSlug) {
       document.querySelector(".explorer-backdrop")?.remove()
     })
 
+    // On mobile, intercept folder title link clicks and toggle instead of navigate
+    function mobileFolderToggle(e: MouseEvent) {
+      const mobileExplorer = explorer.querySelector(".mobile-explorer") as HTMLElement | null
+      if (!mobileExplorer?.checkVisibility()) return
+      const target = e.target as HTMLElement
+      if (target.tagName !== "A" || !target.classList.contains("folder-title")) return
+      e.preventDefault()
+      e.stopPropagation()
+      const folderContainer = target.parentElement?.parentElement as HTMLElement | null
+      if (!folderContainer) return
+      const folderOuter = folderContainer.nextElementSibling as HTMLElement | null
+      if (!folderOuter) return
+      folderOuter.classList.toggle("open")
+      const isCollapsed = !folderOuter.classList.contains("open")
+      setFolderState(folderOuter, isCollapsed)
+      const path = folderContainer.dataset.folderpath
+      if (path) {
+        const existing = currentExplorerState.find((item) => item.path === path)
+        if (existing) {
+          existing.collapsed = isCollapsed
+        } else {
+          currentExplorerState.push({ path: path as FullSlug, collapsed: isCollapsed })
+        }
+        localStorage.setItem("fileTree", JSON.stringify(currentExplorerState))
+      }
+    }
+    const explorerContent = explorer.querySelector(".explorer-content") as HTMLElement | null
+    explorerContent?.addEventListener("click", mobileFolderToggle)
+    window.addCleanup(() => explorerContent?.removeEventListener("click", mobileFolderToggle))
+
     // Set up folder click handlers
     if (opts.folderClickBehavior === "collapse") {
       const folderButtons = explorer.getElementsByClassName(
