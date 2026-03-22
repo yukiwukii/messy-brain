@@ -1,4 +1,5 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
 
 // ── Font rendering ────────────────────────────────────────────────────────────
 html {
@@ -232,6 +233,29 @@ li.task-cancelled {
           opacity: 1;
         }
       }
+    }
+  }
+}
+
+// ── Mobile overflow — constrain grid items and wide content ──────────────────
+@media all and ($mobile) {
+  .page > #quartz-body > * {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .center {
+    overflow-x: hidden;
+  }
+
+  article {
+    overflow-wrap: anywhere;
+    padding-right: 1rem;
+    box-sizing: border-box;
+
+    img {
+      max-width: 100%;
+      height: auto;
     }
   }
 }
