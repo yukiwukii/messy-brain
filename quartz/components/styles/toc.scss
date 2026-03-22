@@ -57,6 +57,10 @@ ul.toc-content.overflow {
     &.in-view {
       opacity: 0.75;
     }
+    &.active {
+      opacity: 1;
+      font-weight: 600;
+    }
   }
 
   @for $i from 0 through 6 {

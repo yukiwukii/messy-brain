@@ -24,6 +24,29 @@ function toggleToc(this: HTMLElement) {
   content.classList.toggle("collapsed")
 }
 
+function handleTocLinkClick(this: HTMLAnchorElement, e: Event) {
+  e.preventDefault()
+  e.stopPropagation()
+  const targetId = this.getAttribute("data-for")
+  if (!targetId) return
+
+  // Remove active from all TOC links
+  document.querySelectorAll(".toc-content a.active").forEach((el) => el.classList.remove("active"))
+  this.classList.add("active")
+
+  const target = document.getElementById(targetId)
+  if (target) {
+    const rect = target.getBoundingClientRect()
+    const offset = window.scrollY + rect.top - window.innerHeight * 0.25
+    window.scrollTo({ top: offset, behavior: "smooth" })
+    history.pushState({}, "", `#${targetId}`)
+
+    // Flash highlight the header
+    target.classList.add("toc-highlight")
+    setTimeout(() => target.classList.remove("toc-highlight"), 3000)
+  }
+}
+
 function setupToc() {
   for (const toc of document.getElementsByClassName("toc")) {
     const button = toc.querySelector(".toc-header")
@@ -32,6 +55,12 @@ function setupToc() {
     button.addEventListener("click", toggleToc)
     window.addCleanup(() => button.removeEventListener("click", toggleToc))
   }
+
+  const tocLinks = document.querySelectorAll<HTMLAnchorElement>(".toc-content a[data-for]")
+  tocLinks.forEach((link) => {
+    link.addEventListener("click", handleTocLinkClick)
+    window.addCleanup(() => link.removeEventListener("click", handleTocLinkClick))
+  })
 }
 
 document.addEventListener("nav", () => {

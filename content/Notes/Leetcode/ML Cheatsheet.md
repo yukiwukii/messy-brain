@@ -1,6 +1,6 @@
 ---
 created: 2026-03-21T14:15
-modified: 2026-03-22T17:55
+modified: 2026-03-22T18:19
 ---
 ## Matrix Multiplications
 I use einsum.
