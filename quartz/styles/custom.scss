@@ -239,6 +239,10 @@ li.task-cancelled {
 
 // ── Mobile overflow — constrain grid items and wide content ──────────────────
 @media all and ($mobile) {
+  .page > #quartz-body > * {
+    min-width: 0;
+  }
+
   .center {
     overflow-x: hidden;
   }
