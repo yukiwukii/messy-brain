@@ -4,6 +4,10 @@ import { resolveRelative, simplifySlug } from "../util/path"
 import { i18n } from "../i18n"
 import { classNames } from "../util/lang"
 import OverflowListFactory from "./OverflowList"
+import { concatenateResources } from "../util/resources"
+
+// @ts-ignore
+import script from "./scripts/backlinks.inline"
 
 interface BacklinksOptions {
   hideWhenEmpty: boolean
@@ -49,7 +53,7 @@ export default ((opts?: Partial<BacklinksOptions>) => {
   }
 
   Backlinks.css = style
-  Backlinks.afterDOMLoaded = overflowListAfterDOMLoaded
+  Backlinks.afterDOMLoaded = concatenateResources(script, overflowListAfterDOMLoaded)
 
   return Backlinks
 }) satisfies QuartzComponentConstructor
