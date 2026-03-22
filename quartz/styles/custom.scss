@@ -244,6 +244,8 @@ li.task-cancelled {
   }
 
   article {
+    overflow-wrap: break-word;
+
     img {
       max-width: 100%;
       height: auto;
