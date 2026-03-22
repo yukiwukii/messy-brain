@@ -103,7 +103,7 @@ img {
 li.task-cancelled {
   list-style-type: none;
   padding-left: 0;
-  text-decoration: line-through;
+  // text-decoration: line-through;
   text-decoration-color: var(--gray);
   color: var(--gray);
 
