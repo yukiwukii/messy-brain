@@ -25,7 +25,7 @@ const config: QuartzConfig = {
       typography: {
         header: "Fraunces",
         body: "Atkinson Hyperlegible",
-        code: "IBM Plex Mono",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
@@ -61,7 +61,7 @@ const config: QuartzConfig = {
       }),
       Plugin.SyntaxHighlighting({
         theme: {
-          light: "rose-pine-dawn",
+          light: "catppuccin-latte",
           dark: "rose-pine-moon",
         },
         keepBackground: false,

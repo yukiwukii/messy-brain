@@ -91,6 +91,7 @@ blockquote {
 // ── Code blocks — softer corners ─────────────────────────────────────────────
 pre {
   border-radius: 8px;
+  font-weight: 500;
 }
 
 code:not(pre > code) {
