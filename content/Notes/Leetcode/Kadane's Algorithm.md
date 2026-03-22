@@ -1,8 +1,9 @@
 ---
 created: 2026-03-20T19:28
-modified: 2026-03-21T10:48
+modified: 2026-03-22T21:19
+tags:
+  - DP
 ---
-#DP
 To find the contiguous subarray with the largest sum. Actually quite simple.
 
 The logic here is that as long as the contiguous subarray becomes negative, it is no longer worth it to keep around. We also have the max being held.

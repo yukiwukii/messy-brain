@@ -1,9 +1,9 @@
 ---
 created: 2026-03-03T09:14
-modified: 2026-03-20T13:57
+modified: 2026-03-22T21:20
+tags:
+  - done
 ---
-#done 
-
 Final Comments: Experiment deprecated because I have been using zero-shot prompts, which performed terribly (presumably because base model cannot understand shit). 
 Follow up experiment: [[Showing Preference Changes during IFT]]
 

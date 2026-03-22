@@ -1,5 +1,4 @@
 ---
-tags:
-  - MOC
 draft: true
+tags:
 ---

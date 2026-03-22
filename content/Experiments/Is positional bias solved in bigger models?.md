@@ -1,8 +1,9 @@
 ---
 created: 2026-03-03T09:10
-modified: 2026-03-20T11:40
+modified: 2026-03-22T21:20
+tags:
+  - done
 ---
-#done
 [[How does the training process of judge model affect their judgement?]]
 
 - [x] Running `big-qwen-base`. Still dealing with some multi-GPU and VLLM issues. ✅ 2026-03-05

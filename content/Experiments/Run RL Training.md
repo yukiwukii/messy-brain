@@ -1,9 +1,9 @@
 ---
 created: 2026-03-08T11:26
-modified: 2026-03-15T22:19
+modified: 2026-03-22T21:20
+tags:
+  - running
 ---
-#running 
-
 - [x] Need to figure out the OOM issues. ✅ 2026-03-09
 	- Something is leaking the memory in-between steps. 
 		- Trying to fix this with garbage collection on `prime.py` and `ray_trainer.py`. Currently running on `grpo-train-yuki`.
