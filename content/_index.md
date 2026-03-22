@@ -3,7 +3,7 @@ tags:
 draft: false
 title: Welcome Stranger!
 created: 2025-09-28T08:25
-modified: 2026-03-22T22:46
+modified: 2026-03-22T22:51
 ---
 Hi! Nice to cross-path with you digitally ⭐️
 
@@ -14,8 +14,8 @@ Also, I love reading research papers! I write about a bunch of [[Papers/_index|p
 Note that the intended audience of these notes is **me**! So you may find incomplete and incomprehensible piece of writing, which is *perfectly expected* (my brain sometimes works in mysterious ways 😅). Despite this, I still hope my unfiltered ramblings could be useful for you 🫡
 
 ```
-  ／|、         Zzzzz  |\      _,,,--,,_            =^･ω･^=
-（ﾟ､｡ 7               /,`.-'`'   ._  \-;;,_        |  ⊃    what's up
- |、ﾞ~ヽ             |,4-  ) )_   .;.(  `'-'       U  U
- じしf_,)ノ          '---''(_/._)-'(_\_).
+               ／|、         zzzzz  |\      _,,,--,,_            =^･ω･^=                 /\_/\
+what's that? （ﾟ､｡ 7               /,`.-'`'   ._  \-;;,_        |  ⊃    what's up       ( o.o)
+              |、ﾞ~ヽ             |,4-  ) )_   .;.(  `'-'       U  U                    o_(")(")
+              じしf_,)ノ          '---''(_/._)-'(_\_).                                  i'm sat
 ```
