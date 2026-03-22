@@ -38,6 +38,17 @@ button.toc-header {
   }
 }
 
+@keyframes toc-item-in {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 ul.toc-content.overflow {
   list-style: none;
   position: relative;
@@ -46,6 +57,14 @@ ul.toc-content.overflow {
   max-height: calc(100% - 2rem);
   overscroll-behavior: contain;
   list-style: none;
+
+  & > li {
+    opacity: 0;
+    &.toc-animate {
+      animation: toc-item-in 0.25s ease both;
+      animation-delay: calc(var(--i, 0) * 40ms);
+    }
+  }
 
   & > li > a {
     color: var(--dark);
