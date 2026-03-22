@@ -16,6 +16,8 @@
     overscroll-behavior: contain;
 
     & > li {
+      font-size: 0.8rem;
+
       & > a {
         background-color: transparent;
       }
