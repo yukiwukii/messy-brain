@@ -171,7 +171,6 @@
 
   &.is-collapsed {
     padding-bottom: 0;
-    overflow: hidden;
 
     & > .callout-title > .fold-callout-icon {
       transform: rotateZ(-90deg);
