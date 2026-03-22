@@ -5,10 +5,8 @@ year: 2025
 url: http://arxiv.org/abs/2511.07689
 doi: 10.48550/arXiv.2511.07689
 created: 2026-03-17T11:27
-modified: 2026-03-20T11:57
+modified: 2026-03-22T19:54
 ---
-#### (2025) - Zain Muhammad Mujahid, Dustin Wright, Isabelle Augenstein
-
 ## Notes
 Was recommended this paper as they are doing dataset pertubation, which what I am also interested in doing -- pertubation -> see effects in terms of preference.
 

@@ -21,4 +21,67 @@ PageTitle.css = `
 }
 `
 
+PageTitle.afterDOMLoaded = `
+const pageTitles = [
+  "(｡•́︿•̀｡)",
+  "(°·._.·°)",
+  "(っ˘ڡ˘ς)",
+  "ᕙ( •̀ ᗜ •́ )ᕗ",
+  "(｡•ㅅ•｡)~✧",
+  "૭( ᵕ•̀ᵕ•́૭)",
+  "(૭ •́ ᵕ•̀ )૭",
+  "(๑>؂·̀๑)",
+  "৻(•̀ᗜ•́৻)",
+  "٩(•̤̀ᵕ•̤́๑)",
+  "ᕙ(⇀‸↼‶)ᕗ",
+  "(˶ᵔ ᵕ ᵔ˶)",
+  "( •̀ ω •́ )✧",
+  "(⁠ ⁠˘⁠ ⁠³⁠˘⁠)♥",
+  "꒰⑅•ᴗ•⑅꒱",
+  "₍ᐢ•ﻌ•ᐢ₎",
+  "(ฅ•ω•ฅ)",
+  "ฅ^•ﻌ•^ฅ",
+  "(=^･ω･^=)",
+  "( ͡° ͜ʖ ͡°)",
+  "(¬‿¬)",
+  "(◕‿◕✿)",
+  "(づ｡◕‿‿◕｡)づ",
+  "✿◠‿◠",
+  "(⌐■_■)",
+  "¯\\_(ツ)_/¯",
+  "(҂◡_◡)",
+  "(⊙_⊙)",
+  "(●'◡'●)",
+  "^( •ω• )^",
+  "(｀・ω・´)",
+  "(≧◡≦)",
+  "(*^▽^*)",
+  "(´｡• ω •｡\`)",
+  "꒰˶• ༝ •˶꒱",
+  "(˘▽˘>ԅ( ˘▽˘)",
+  "( •_•)>⌐■-■",
+  "ʕ•ᴥ•ʔ",
+  "ʕ·ᴥ·ʔ",
+  "(ᵔᴥᵔ)",
+  "( ˶ˆᗜˆ˵ )",
+  "˙ ˖ ✧",
+  "✦ ˚ . ✦",
+  "⋆｡‧˚ʚ♡ɞ˚‧｡⋆",
+  "˚ ⋆ ꕥ ⋆ ˚",
+  "✮ ⋆ ˚｡",
+  "₊˚⊹♡",
+  "˚₊‧꒰ა ♡ ໒꒱‧₊˚",
+]
+
+function randomizePageTitle() {
+  const el = document.querySelector(".page-title a")
+  if (el) {
+    el.textContent = pageTitles[Math.floor(Math.random() * pageTitles.length)]
+  }
+}
+
+randomizePageTitle()
+document.addEventListener("nav", randomizePageTitle)
+`
+
 export default (() => PageTitle) satisfies QuartzComponentConstructor
