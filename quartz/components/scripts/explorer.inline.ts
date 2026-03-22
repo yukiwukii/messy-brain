@@ -20,7 +20,8 @@ type FolderState = {
 }
 
 let currentExplorerState: Array<FolderState>
-function toggleExplorer(this: HTMLElement) {
+function toggleExplorer(this: HTMLElement, e: MouseEvent) {
+  e.stopPropagation()
   const nearestExplorer = this.closest(".explorer") as HTMLElement
   if (!nearestExplorer) return
   const explorerCollapsed = nearestExplorer.classList.toggle("collapsed")
@@ -32,8 +33,12 @@ function toggleExplorer(this: HTMLElement) {
   if (!explorerCollapsed) {
     // Stop <html> from being scrollable when mobile explorer is open
     document.documentElement.classList.add("mobile-no-scroll")
+    const backdrop = document.createElement("div")
+    backdrop.className = "explorer-backdrop"
+    document.body.appendChild(backdrop)
   } else {
     document.documentElement.classList.remove("mobile-no-scroll")
+    document.querySelector(".explorer-backdrop")?.remove()
   }
 }
 
@@ -238,6 +243,20 @@ async function setupExplorer(currentSlug: FullSlug) {
       window.addCleanup(() => button.removeEventListener("click", toggleExplorer))
     }
 
+    // Close mobile explorer when clicking the backdrop div
+    function closeOnBackdrop(e: MouseEvent) {
+      if (!(e.target as HTMLElement).classList.contains("explorer-backdrop")) return
+      explorer.classList.add("collapsed")
+      explorer.setAttribute("aria-expanded", "false")
+      document.documentElement.classList.remove("mobile-no-scroll")
+      document.querySelector(".explorer-backdrop")?.remove()
+    }
+    document.addEventListener("click", closeOnBackdrop)
+    window.addCleanup(() => {
+      document.removeEventListener("click", closeOnBackdrop)
+      document.querySelector(".explorer-backdrop")?.remove()
+    })
+
     // Set up folder click handlers
     if (opts.folderClickBehavior === "collapse") {
       const folderButtons = explorer.getElementsByClassName(
@@ -288,12 +307,20 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
 })
 
 window.addEventListener("resize", function () {
-  // Desktop explorer opens by default, and it stays open when the window is resized
-  // to mobile screen size. Applies `no-scroll` to <html> in this edge case.
-  const explorer = document.querySelector(".explorer")
-  if (explorer && !explorer.classList.contains("collapsed")) {
+  const explorer = document.querySelector(".explorer") as HTMLElement | null
+  if (!explorer) return
+  const mobileExplorer = explorer.querySelector(".mobile-explorer") as HTMLElement | null
+  if (mobileExplorer?.checkVisibility()) {
+    // Resized into mobile — collapse explorer if it was open from desktop
+    if (!explorer.classList.contains("collapsed")) {
+      explorer.classList.add("collapsed")
+      explorer.setAttribute("aria-expanded", "false")
+      document.documentElement.classList.remove("mobile-no-scroll")
+      document.querySelector(".explorer-backdrop")?.remove()
+    }
+  } else if (!explorer.classList.contains("collapsed")) {
+    // Desktop explorer opens by default; keep scroll lock consistent
     document.documentElement.classList.add("mobile-no-scroll")
-    return
   }
 })
 
