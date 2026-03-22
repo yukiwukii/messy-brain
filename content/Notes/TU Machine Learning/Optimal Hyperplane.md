@@ -1,6 +1,6 @@
 ---
 created: 2025-10-14T14:54
-modified: 2025-10-14T16:47
+modified: 2026-03-22T16:06
 ---
 In [[Perceptron]], we learn that there might be multiple solutions. To decide which one is best, we have the optimal hyperplane.
 
@@ -14,8 +14,8 @@ We can do this because we can just freely absorb a scalar to $\mathbf{w}$ and $\
 >[!info] Optimal Hyperplane
 >$$
 >\begin{aligned}
-&\min \Phi(\mathbf{w}) = \frac{1}{2}(\mathbf{w}\cdot \mathbf{w}) \text{ w.r.t }\mathbf{w}, \\ &\text{s.t. } y_{i}(\mathbf{w} \cdot \mathbf{x}_{i})+b \geq 1, \quad \text{if }i=1, 2,\dots,l\\ &\text{for training samples } (y_{1}, \mathbf{x}_{1}),\dots,(y_{l}, \mathbf{x}_{l}), \quad y \in \{-1, 1\}
-\end{aligned}
+>&\min \Phi(\mathbf{w}) = \frac{1}{2}(\mathbf{w}\cdot \mathbf{w}) \text{ w.r.t }\mathbf{w}, \\ &\text{s.t. } y_{i}(\mathbf{w} \cdot \mathbf{x}_{i})+b \geq 1, \quad \text{if }i=1, 2,\dots,l\\ &\text{for training samples } (y_{1}, \mathbf{x}_{1}),\dots,(y_{l}, \mathbf{x}_{l}), \quad y \in \{-1, 1\}
+>\end{aligned}
 >$$
 
 In plain English, $\Phi(\mathbf{w}) = \frac{1}{2}(\mathbf{w}\cdot \mathbf{w})$ is equivalent to maximizing the margin and $y_{i}(\mathbf{w}\cdot \mathbf{x}_{i})+b \geq 1$ is the requirement that there is no misclassification. 

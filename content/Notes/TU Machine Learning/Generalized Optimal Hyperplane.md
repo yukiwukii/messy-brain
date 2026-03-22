@@ -1,6 +1,6 @@
 ---
 created: 2025-10-14T16:48
-modified: 2025-10-14T17:06
+modified: 2026-03-22T16:08
 ---
 Following [[Optimal Hyperplane]], we have generalized optimal hyperplane that deals with non-separable cases.
 
@@ -15,7 +15,7 @@ We then define a function $F_{\sigma}(\xi) = \sum_{i=1}^l\xi_{i}^\sigma \quad \s
 >\begin{align}
 >&\min \Phi(\mathbf{w}, \boldsymbol{\xi}) = \frac{1}{2}(\mathbf{w}\cdot \mathbf{w}) + C\left( \sum_{i=1}^l \xi_{i} \right) \quad \text{w.r.t } \mathbf{w} \\
 > &\text{s.t. } y_{i}((\mathbf{w} \cdot \mathbf{x}_{i}) + b) \geq 1-\xi_{i}, \quad i=1,2,\dots,l
-\end{align}
+>\end{align}
 >$$
 >Where parameter $C$ controls the penalty on errors.
 
@@ -28,7 +28,7 @@ Here are the revised theorem:
 >\begin{align}
 >&\min \psi(\mathbf{w}, \boldsymbol{\xi}) = \frac{1}{2}(\mathbf{w}\cdot \mathbf{w}) + C\left( \sum_{i=1}^n \xi_{i} \right) \\
 >&\text{s.t. } y_{i}[(\mathbf{w}\cdot \mathbf{x}_{i})+b] -1 + \xi_{i} \geq 0, \quad \xi_{i} \geq 0, \quad i=1,..,l
-\end{align}
+>\end{align}
 >$$
 
 >[!note]- Dual Problem
@@ -39,5 +39,5 @@ Here are the revised theorem:
 
 The decision function solution:
 $$
-f(\mathbf{x})= \text{sgn}\left( \sum_{i=1}^n \alpha^*y_{i}(\mathbf{x}_{i}\cdot \mathbf{x})+b^*\right)
+f(\mathbf{x})= \text{sgn}\left( \sum_{i=1}^n \alpha^{\ast}y_{i}(\mathbf{x}_{i}\cdot \mathbf{x})+b^{\ast}\right)
 $$

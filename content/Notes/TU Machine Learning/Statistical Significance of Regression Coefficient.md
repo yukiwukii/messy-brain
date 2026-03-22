@@ -1,11 +1,12 @@
 ---
 created: 2025-09-29T05:33
-modified: 2025-09-29T05:37
+modified: 2026-03-22T15:57
 ---
 Consider the linear regression equation:
 $$
 y_i = w_0 + \mathbf{w}^T\mathbf{x}_i + \epsilon_i = w_0 + \sum_{j=1}^d
-w_jx_{ij}+\epsilon_i$$
+w_jx_{ij}+\epsilon_i
+$$
 where the value of $\epsilon$ can be modelled using normal distribution:
 $$
 \epsilon_i \sim N(0, \sigma^2), \\\ i = 1, \ldots,  N

@@ -1,12 +1,13 @@
 ---
 created: 2025-10-15T19:24
-modified: 2025-10-16T10:25
+modified: 2026-03-22T16:04
 ---
 ## For Multiclass Classification
 Decision function:
 $$
-f(\mathbf{x}) = \text{sgn} \left( \sum_{i=1}^l\alpha_{i}^*y_{i}K(\mathbf{x}_{i}, \mathbf{x}) + b^* \right)
-$$The standard SVM only separate 2 classes. So we have 2 strategies to deal with multiclass classification:
+f(\mathbf{x}) = \text{sgn} \left( \sum_{i=1}^l\alpha_{i}^*y_{i}K(\mathbf{x}_{i}, \mathbf{x}) + b^\ast \right)
+$$
+The standard SVM only separate 2 classes. So we have 2 strategies to deal with multiclass classification:
 - One-vs-All (OvA)
 	- Train one binary classifier per class. Either in that class or out of that class.
 	- Pick the classifier that gives the highest score.
