@@ -13,15 +13,11 @@ const NotFound: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
     ░░   you fell off the map.   ░░
     ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
-     ∧,,∧  ／|    ∧＿∧  ／
-    (ﾟДﾟ；)＜  |   (╥﹏╥)＜  help
-    ／|   |＼  |   ／|   |＼
-  _( |   | )_|  （  |   |  ）
-      ＼＿／        ＼＿／
-
-  (ノಠ益ಠ)ノ彡┻━┻    ┬─┬ノ(º _ ºノ)
-
-    ˙◠˙  ← this page doesn't exist
+         ∧＿∧
+        （；ŏ＿ŏ）  < this page doesn't exist
+        ／|    |＼
+       （  |    |  ）
+           ＼＿／
     `}</pre>
       <a href={baseDir}>{i18n(cfg.locale).pages.error.home}</a>
     </article>
@@ -39,11 +35,12 @@ NotFound.css = `
   font-size: 0.85rem;
   line-height: 1.6;
   color: var(--darkgray);
-  background: none;
-  border: none;
-  padding: 0;
+  background-color: var(--lightgray);
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
   margin: 1rem 0 2rem 0;
   white-space: pre;
+  display: inline-block;
 }
 `
 

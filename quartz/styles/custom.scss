@@ -30,6 +30,7 @@ article {
   p {
     line-height: 1.8;
   }
+
 }
 
 // ── Internal links — refined underline style ──────────────────────────────────
@@ -157,6 +158,60 @@ li.task-cancelled {
 // ── Page title — tighter tracking ─────────────────────────────────────────────
 .page-title a {
   letter-spacing: -0.03em;
+}
+
+// ── Recent notes — single-box compact list ────────────────────────────────────
+.recent-notes {
+  margin-top: 2rem;
+
+  & > h3 {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--gray);
+    margin-bottom: 0.5rem;
+  }
+
+  & > ul.recent-ul {
+    border: 1px solid var(--lightgray);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+    & > li.recent-li {
+      margin: 0;
+      transition: background-color 0.15s ease;
+
+      &:hover {
+        background-color: color-mix(in srgb, var(--lightgray) 30%, transparent);
+      }
+
+      .section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.5rem;
+        padding: 0.5rem 1rem;
+
+        .desc h3 {
+          font-size: 0.85rem;
+          font-weight: 500;
+          margin: 0;
+        }
+
+        .meta {
+          font-size: 0.75rem;
+          color: var(--gray);
+          white-space: nowrap;
+          flex-shrink: 0;
+          margin: 0;
+          opacity: 1;
+        }
+      }
+    }
+  }
 }
 
 // ── TOC click highlight ───────────────────────────────────────────────────────
